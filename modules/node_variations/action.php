@@ -1,6 +1,6 @@
 <?php
 /**
-* @package Variations
+* @package ContentExperiments
 * @author  Serhey Dolgushev <dolgushev.serhey@gmail.com>
 * @date    01 Jun 2013
 **/

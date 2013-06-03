@@ -1,6 +1,6 @@
 <?php
 /**
- * @package Variations
+ * @package ContentExperiments
  * @class   NodeVariationMultivariateTestingHandlerClass
  * @author  Serhey Dolgushev <dolgushev.serhey@gmail.com>
  * @date    03 Jun 2013

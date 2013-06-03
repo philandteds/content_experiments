@@ -1,6 +1,6 @@
 <?php /* #?ini charset="utf-8"?
 
 [ModuleSettings]
-ExtensionRepositories[]=variations
+ExtensionRepositories[]=content_experiments
 ModuleList[]=node_variations
 */ ?>

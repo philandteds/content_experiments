@@ -1,18 +1,18 @@
 <?php
 /**
- * @package Variations
- * @class   variationsInfo
+ * @package ContentExperiments
+ * @class   content_experimentsInfo
  * @author  Serhey Dolgushev <dolgushev.serhey@gmail.com>
  * @date    03 Jun 2013
  **/
 
-class variationsInfo
+class content_experimentsInfo
 {
 	public static function info() {
 		return array(
-			'Name'      => 'Node Variations',
+			'Name'      => 'Content Experiments',
 			'Version'   => '1.0',
-			'Author'    => 'SD / NXC International SA',
+			'Author'    => 'Serhey Dolgushev',
 			'Copyright' => 'Copyright &copy; ' . date( 'Y' ) . ' <a href="http://ua.linkedin.com/in/serheydolgushev" target="blank">Serhey Dolgushev</a>'
 		);
 	}
