@@ -18,7 +18,23 @@ $FunctionList = array(
 				'name'     => 'node_id',
 				'type'     => 'int',
 				'required' => true,
-				'default'  => 'user'
+				'default'  => null
+			)
+		)
+	),
+	'fetch_experiment_code' => array(
+		'name'           => 'fetch_experiment_code',
+		'call_method'    => array(
+			'class'  => 'ExperimentCode',
+			'method' => 'fetchByNodeID'
+		),
+		'parameter_type' => 'standard',
+		'parameters'     => array(
+			array(
+				'name'     => 'node_id',
+				'type'     => 'int',
+				'required' => true,
+				'default'  => null
 			)
 		)
 	)

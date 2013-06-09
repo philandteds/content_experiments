@@ -53,3 +53,23 @@
 	</fieldset>
 </form>
 {/if}
+{undef $variations}
+
+{def $experiment_code = fetch( 'node_variations', 'fetch_experiment_code', hash( 'node_id',  $node.node_id ) )}
+<form method="post" action="{concat( 'node_variations/action/', $node.node_id )|ezurl( 'no' )}">
+	<div class="block">
+		<fieldset>
+			<legend>{'Experiment code'|i18n( 'design/admin/node/view/full' )}</legend>
+
+			<textarea rows="10" cols="80" name="ExperimentCode">{$experiment_code.experiment_code}</textarea><br />
+
+			<div class="block">
+				<div class="button-right">
+					<input class="button" type="submit" value="{'Update'|i18n( 'design/admin/node/view/full' )}" name="UpdateExperimentCode" />
+				</div>
+				<div class="break"></div>
+			</div>
+
+		</fieldset>
+	</div>
+</form>
